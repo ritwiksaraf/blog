@@ -6,13 +6,13 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.3.2)
-  webrick
-  jekyll-theme-chirpy
+  jekyll-archives
   jekyll-feed
+  jekyll-paginate-v2
   jekyll-seo-tag
   jekyll-sitemap
-  jekyll-archives
-  jekyll-paginate-v2
+  jekyll-theme-chirpy
+  webrick
 
 BUNDLED WITH
    2.4.22
