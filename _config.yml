@@ -4,7 +4,8 @@ email: "saraf.ritwik@gmail.com"
 description: "An effort to document my life."
 baseurl: "" # Leave this empty if deploying at the root domain
 url: "https://blog.ritwiksaraf.com" # Your site's URL
-theme: chirpy # You can choose a different theme if desired
+theme: jekyll-theme-chirpy
+ # You can choose a different theme if desired
 
 # Build settings
 plugins:
