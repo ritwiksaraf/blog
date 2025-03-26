@@ -2,7 +2,7 @@ backend:
   name: github
   repo: ritwiksaraf/blog
   branch: main
-  auth_scope: repo
+
 
 media_folder: "assets/img/uploads"
 public_folder: "/assets/img/uploads"
@@ -19,3 +19,4 @@ collections:
       - { label: "Categories", name: "categories", widget: "list", default: ["Blog"] }
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Body", name: "body", widget: "markdown" }
+
