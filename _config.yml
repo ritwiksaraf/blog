@@ -15,7 +15,3 @@ plugins:
   - jekyll-paginate-v2
 
 paginate: 10
-
-# Uncomment if using GitHub Pages
-# github:
-#   is_project_page: false
