@@ -1,5 +1,3 @@
+
 User-agent: *
-
-Disallow: /norobots/
-
-Sitemap: https://blog.ritwiksaraf.com/sitemap.xml
+Disallow: /admin/
