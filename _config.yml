@@ -1,0 +1,21 @@
+title: Blog
+tagline: A blog using Chirpy on Netlify
+description: >-
+  Powered by Jekyll and the Chirpy theme
+url: "https://blog.ritwiksaraf.com"
+baseurl: ""
+lang: en
+theme: jekyll-theme-chirpy
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-paginate-v2
+
+paginate: 10
+
+# Uncomment if using GitHub Pages
+# github:
+#   is_project_page: false
