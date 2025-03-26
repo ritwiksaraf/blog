@@ -1,2 +1,3 @@
 
 /  /admin/:splat 302!
+/admin/*  https://ritwikblog.netlify.app/admin/:splat  302!
