@@ -1,28 +1,29 @@
-name: Build and Deploy Chirpy
+name: Deploy Jekyll with Chirpy Theme
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main  # Adjust if your default branch is named differently
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout Repository
         uses: actions/checkout@v3
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.2
+          ruby-version: 3.2.2  # Ensure compatibility with Chirpy theme
 
-      - name: Install dependencies
-        run: |
-          gem install bundler
-          bundle config set --local path 'vendor/bundle'
-          bundle install
+      - name: Install Bundler
+        run: gem install bundler
 
-      - name: Build site
+      - name: Install Dependencies
+        run: bundle install
+
+      - name: Build Site
         run: bundle exec jekyll build
 
       - name: Deploy to GitHub Pages
