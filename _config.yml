@@ -1,28 +1,17 @@
-title: "Inside the mind of"
-author: "Ritwik Saraf"
-email: "saraf.ritwik@gmail.com"
-description: "An effort to document my life."
-baseurl: "" # Leave this empty if deploying at the root domain
-url: "https://blog.ritwiksaraf.com" # Your site's URL
+title: Blog
+tagline: A blog using Chirpy on Netlify
+description: >-
+  Powered by Jekyll and the Chirpy theme
+url: "https://blog.ritwiksaraf.com"
+baseurl: ""
+lang: en
 theme: jekyll-theme-chirpy
- # You can choose a different theme if desired
 
-# Build settings
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-paginate-v2
 
-# Collections
-collections:
-  posts:
-    output: true
-    permalink: /:categories/:year/:month/:day/:title:output_ext
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-
+paginate: 10
