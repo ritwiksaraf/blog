@@ -1,17 +1,36 @@
-title: Blog
-tagline: A blog using Chirpy on Netlify
-description: >-
-  Powered by Jekyll and the Chirpy theme
-url: "https://blog.ritwiksaraf.com"
-baseurl: ""
-lang: en
-theme: jekyll-theme-chirpy
+title: "Inside the mind of"
+author: "Ritwik Saraf"
+email: "saraf.ritwik@gmail.com"
+description: "An effort to document my life."
+baseurl: "" # Leave this empty if deploying at the root domain
+url: "https://blog.ritwiksaraf.com" # Your site's URL
+theme: minima # You can choose a different theme if desired
 
+# Build settings
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-archives
-  - jekyll-paginate-v2
 
-paginate: 10
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title:output_ext
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+source "https://rubygems.org"
+
+gem "jekyll", "~> 4.3.2"
+gem "webrick"
+gem "jekyll-theme-chirpy"
+gem "jekyll-feed"
+gem "jekyll-seo-tag"
+gem "jekyll-sitemap"
+gem "jekyll-archives"
+gem "jekyll-paginate-v2"
