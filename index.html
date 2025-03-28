@@ -45,7 +45,7 @@
 <!-- End Jekyll SEO tag -->
 
 
-  <title>Home | Finding Inspiration
+  <title>Finding Inspiration
   </title>
 
   <!--
@@ -109,6 +109,8 @@
   
 
   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css">
+  
 
   
 
@@ -125,6 +127,10 @@
 <!-- layout specified -->
 
 
+  
+
+  
+
 
 
 
@@ -146,9 +152,44 @@
 
   
 
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
 
 
 
@@ -156,7 +197,7 @@
 
 
 
-<script defer src="/assets/js/dist/commons.min.js"></script>
+<script defer src="/assets/js/dist/home.min.js"></script>
 
 
 
@@ -186,7 +227,7 @@
   <nav class="flex-column flex-grow-1 w-100 ps-0">
     <ul class="nav">
       <!-- home -->
-      <li class="nav-item">
+      <li class="nav-item active">
         <a href="/" class="nav-link">
           <i class="fa-fw fas fa-home"></i>
           <span>HOME</span>
@@ -362,7 +403,7 @@
     </button>
 
     <div id="topbar-title">
-      Default
+      Finding Inspiration
     </div>
 
     <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
@@ -388,37 +429,98 @@
         <div class="row flex-grow-1">
           <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
             
-              <section class="page-content">
-  <h1>Latest Posts</h1>
-  <ul>
-    
-      <li>
-        <a href="/posts/starting-from-scratch/">Starting from scratch</a>
-        <span>Mar 28, 2025</span>
-      </li>
-    
-      <li>
-        <a href="/posts/hello-world-2/">Hello World 2</a>
-        <span>Mar 26, 2025</span>
-      </li>
-    
-      <li>
-        <a href="/posts/hello-world-1/">Hello World</a>
-        <span>Mar 26, 2025</span>
-      </li>
-    
-      <li>
-        <a href="/posts/hello-world/">Hello World</a>
-        <span>Mar 26, 2025</span>
-      </li>
-    
-      <li>
-        <a href="/posts/welcome/">Welcome to Chirpy on Netlify</a>
-        <span>Mar 26, 2025</span>
-      </li>
-    
-  </ul>
-</section>
+              <!-- Refactor the HTML structure -->
+
+
+
+<!--
+  In order to allow a wide table to scroll horizontally,
+  we suround the markdown table with `<div class="table-wrapper">` and `</div>`
+-->
+
+
+
+<!--
+  Fixed kramdown code highlight rendering:
+  https://github.com/penibelst/jekyll-compress-html/issues/101
+  https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901
+-->
+
+
+
+<!-- Change the icon of checkbox -->
+
+
+
+<!-- Handle images -->
+
+
+
+
+
+<!-- Add header for code snippets -->
+
+
+
+<!-- Create heading anchors -->
+
+
+
+
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+
+
+
+<!-- return -->
+
+
+
+
+
+
+
+
+
+<!-- Get pinned posts on current page -->
+
+
+
+
+
+
+<!-- Get normal posts on current page -->
+
+
+
+
+
+<div id="post-list" class="flex-grow-1 px-xl-1">
+  
+</div>
+<!-- #post-list -->
+
+
+
 
             
           </main>
