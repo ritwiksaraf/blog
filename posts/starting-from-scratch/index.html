@@ -30,22 +30,23 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.4" />
-<meta property="og:title" content="Home" />
+<meta property="og:title" content="Starting from scratch" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="A lot of sleepless nights have been spent configuring this. I hope you enjoy it" />
-<meta property="og:description" content="A lot of sleepless nights have been spent configuring this. I hope you enjoy it" />
-<link rel="canonical" href="https://blog.ritwiksaraf.com/" />
-<meta property="og:url" content="https://blog.ritwiksaraf.com/" />
+<meta name="description" content="I have been stuck in a continuous loop of starting a project and never finishing it for the last 2 years now. I have gone through numerous cycles of doing something then letting it sit in my brain for countless number of iterations. This website may be the only half baked product of this stupidity and I plan to fix everything this time. This time i am putting my foot down and documenting what i need to document to make this work. I am broadly classifying my projects and everything that i need to do to get them right:" />
+<meta property="og:description" content="I have been stuck in a continuous loop of starting a project and never finishing it for the last 2 years now. I have gone through numerous cycles of doing something then letting it sit in my brain for countless number of iterations. This website may be the only half baked product of this stupidity and I plan to fix everything this time. This time i am putting my foot down and documenting what i need to document to make this work. I am broadly classifying my projects and everything that i need to do to get them right:" />
+<link rel="canonical" href="https://blog.ritwiksaraf.com/posts/starting-from-scratch/" />
+<meta property="og:url" content="https://blog.ritwiksaraf.com/posts/starting-from-scratch/" />
 <meta property="og:site_name" content="Ritwik and some days of his life" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-03-28T16:48:46+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Home" />
+<meta property="twitter:title" content="Starting from scratch" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"A lot of sleepless nights have been spent configuring this. I hope you enjoy it","headline":"Home","name":"Ritwik Saraf","url":"https://blog.ritwiksaraf.com/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-03-28T16:48:46+00:00","datePublished":"2025-03-28T16:48:46+00:00","description":"I have been stuck in a continuous loop of starting a project and never finishing it for the last 2 years now. I have gone through numerous cycles of doing something then letting it sit in my brain for countless number of iterations. This website may be the only half baked product of this stupidity and I plan to fix everything this time. This time i am putting my foot down and documenting what i need to document to make this work. I am broadly classifying my projects and everything that i need to do to get them right:","headline":"Starting from scratch","mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.ritwiksaraf.com/posts/starting-from-scratch/"},"url":"https://blog.ritwiksaraf.com/posts/starting-from-scratch/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>Home | Ritwik and some days of his life
+  <title>Starting from scratch | Ritwik and some days of his life
   </title>
 
   <!--
@@ -109,7 +110,12 @@
   
 
   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css">
+  
 
+  
+    <!-- Image Popup -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css">
   
 
   <!-- Scripts -->
@@ -125,6 +131,13 @@
 <!-- layout specified -->
 
 
+  
+
+  
+    <!-- image lazy-loading & popup & clipboard -->
+    
+  
+
 
 
 
@@ -146,9 +159,58 @@
 
   
 
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
 
 
 
@@ -156,11 +218,15 @@
 
 
 
-<script defer src="/assets/js/dist/commons.min.js"></script>
+<script defer src="/assets/js/dist/post.min.js"></script>
 
 
 
 <!-- Pageviews -->
+
+  
+
+  
 
 
 
@@ -350,9 +416,23 @@
       
 
       
-        <!-- index page -->
-        <span>Home</span>
+        
+          
+            <span>
+              <a href="/">Home</a>
+            </span>
 
+          
+        
+          
+        
+          
+            
+              <span>Starting from scratch</span>
+            
+
+          
+        
       
     </nav>
     <!-- endof #breadcrumb -->
@@ -362,7 +442,7 @@
     </button>
 
     <div id="topbar-title">
-      Default
+      Post
     </div>
 
     <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
@@ -388,37 +468,283 @@
         <div class="row flex-grow-1">
           <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
             
-              <section class="page-content">
-  <h1>Latest Posts</h1>
-  <ul>
+              <!-- Refactor the HTML structure -->
+
+
+
+<!--
+  In order to allow a wide table to scroll horizontally,
+  we suround the markdown table with `<div class="table-wrapper">` and `</div>`
+-->
+
+
+
+<!--
+  Fixed kramdown code highlight rendering:
+  https://github.com/penibelst/jekyll-compress-html/issues/101
+  https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901
+-->
+
+
+
+<!-- Change the icon of checkbox -->
+
+
+
+<!-- Handle images -->
+
+
+
+
+
+<!-- Add header for code snippets -->
+
+
+
+<!-- Create heading anchors -->
+
+
+
+
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+
+
+
+<!-- return -->
+
+
+
+
+
+
+
+
+
+
+<article class="px-1" data-toc="false">
+  <header>
+    <h1 data-toc-skip>Starting from scratch</h1>
     
-      <li>
-        <a href="/posts/starting-from-scratch/">Starting from scratch</a>
-        <span>Mar 28, 2025</span>
-      </li>
+
+    <div class="post-meta text-muted">
+      <!-- published date -->
+      <span>
+        Posted
+        <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1743180526"
+  data-df="ll"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  Mar 28, 2025
+</time>
+
+      </span>
+
+      <!-- lastmod date -->
+      
+
+      
+
+      <div class="d-flex justify-content-between">
+        <!-- author(s) -->
+        <span>
+          
+
+          By
+
+          <em>
+            
+              <a href="">Ritwik Saraf</a>
+            
+          </em>
+        </span>
+
+        <div>
+          <!-- pageviews -->
+          
+
+          <!-- read time -->
+          <!-- Calculate the post's reading time, and display the word count in tooltip -->
+
+
+
+<!-- words per minute -->
+
+
+
+
+
+
+
+
+
+
+<!-- return element -->
+<span
+  class="readtime"
+  data-bs-toggle="tooltip"
+  data-bs-placement="bottom"
+  title="503 words"
+>
+  <em>2 min</em> read</span>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  
+
+  <div class="content">
+    <p>I have been stuck in a continuous loop of starting a project and never finishing it for the last 2 years now. I have gone through numerous cycles of doing something then letting it sit in my brain for countless number of iterations. This website may be the only half baked product of this stupidity and I plan to fix everything this time. This time i am putting my foot down and documenting what i need to document to make this work. I am broadly classifying my projects and everything that i need to do to get them right:</p>
+
+<ol>
+  <li>
+    <p><strong>Project Zero</strong>: It is a home automation project that I have been planning on doing for several years now. It started with a simple esp32 webserver and a generic web interface. It moved to a chatbot with telegram named “Birju” that my friends Hridali and Lohitaksh were able to access and control the lights in my room. While it was cool, my maid almost got zapped as half my electric board was out of the socket to make this possible and she reached out in the dark to turn on the light causing this project to ultimately be a failure. My parents made me put everything back as it was and Birju has been residing in my head rent free since then. It has been 5 years since that project took place and I have switched countries since then. I am now going to restart the project with a simple objective. Have the lamps in my Purdue apartment turn on and off by their own free will. No stupid web interfaces, no voice commands, just logic (I may need to add some interface incase this fails as it usually does)</p>
+  </li>
+  <li>
+    <p><strong>Roomba:</strong> This has been a wet fetish of mine since I played rainbow six siege and decided to move across continents from India to America. I want to do triple the effort so I don’t have to clean up after my self. I have been saying this for 2 years now that the designs are ready. They aren’t but I have them in my head. Famous last words. I may archive this project after all</p>
+  </li>
+  <li>
+    <p><strong>Robotic arm:</strong> This may be the most important project for me right now. I am working on a 6DOF robotic arm so I can use it to program an isaac sim- ros 2 thingy to automate robot programming. I was pretty close when I did something similar with robodk at applied materials. But I will probably update this the most</p>
+  </li>
+</ol>
+
+<p><strong>Archived Projects:</strong></p>
+
+<ol>
+  <li>Scooter cycle (Pretty self explanatory but I bought a car so this is now obsolete)</li>
+</ol>
+
+<p><strong>My next steps:</strong>
+I am going to start with project zero as I need a break from the robot. I am going to simply automate my Walmart lamps with a couple of esp32s. They will communicate over either espnow or espmesh. They will report status back to my rpi4 and use a chatgpt based reasoning model to turn themselves on and off</p>
+
+  </div>
+
+  <div class="post-tail-wrapper text-muted">
+    <!-- categories -->
     
-      <li>
-        <a href="/posts/hello-world-2/">Hello World 2</a>
-        <span>Mar 26, 2025</span>
-      </li>
+      <div class="post-meta mb-3">
+        <i class="far fa-folder-open fa-fw me-1"></i>
+        
+          <a href="/categories/projects/">Projects</a>
+      </div>
     
-      <li>
-        <a href="/posts/hello-world-1/">Hello World</a>
-        <span>Mar 26, 2025</span>
-      </li>
+
+    <!-- tags -->
     
-      <li>
-        <a href="/posts/hello-world/">Hello World</a>
-        <span>Mar 26, 2025</span>
-      </li>
+      <div class="post-tags">
+        <i class="fa fa-tags fa-fw me-1"></i>
+        
+          <a
+            href="/tags/documentation/"
+            class="post-tag no-text-decoration"
+          >documentation</a>
+        
+      </div>
     
-      <li>
-        <a href="/posts/welcome/">Welcome to Chirpy on Netlify</a>
-        <span>Mar 26, 2025</span>
-      </li>
+
+    <div
+      class="
+        post-tail-bottom
+        d-flex justify-content-between align-items-center mt-5 pb-2
+      "
+    >
+      <div class="license-wrapper">
+        
+          
+
+          This post is licensed under 
+        <a href="https://creativecommons.org/licenses/by/4.0/">
+          CC BY 4.0
+        </a>
+         by the author.
+        
+      </div>
+
+      <!-- Post sharing snippet -->
+
+<div class="share-wrapper d-flex align-items-center">
+  <span class="share-label text-muted">Share</span>
+  <span class="share-icons">
     
-  </ul>
-</section>
+    
+    
+
+    
+
+      
+
+      <a href="https://twitter.com/intent/tweet?text=Starting%20from%20scratch%20-%20Ritwik%20and%20some%20days%20of%20his%20life&url=https%3A%2F%2Fblog.ritwiksaraf.com%2Fposts%2Fstarting-from-scratch%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+        <i class="fa-fw fa-brands fa-square-x-twitter"></i>
+      </a>
+    
+
+      
+
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Starting%20from%20scratch%20-%20Ritwik%20and%20some%20days%20of%20his%20life&u=https%3A%2F%2Fblog.ritwiksaraf.com%2Fposts%2Fstarting-from-scratch%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+        <i class="fa-fw fab fa-facebook-square"></i>
+      </a>
+    
+
+      
+
+      <a href="https://t.me/share/url?url=https%3A%2F%2Fblog.ritwiksaraf.com%2Fposts%2Fstarting-from-scratch%2F&text=Starting%20from%20scratch%20-%20Ritwik%20and%20some%20days%20of%20his%20life" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+        <i class="fa-fw fab fa-telegram"></i>
+      </a>
+    
+
+    <button
+      id="copy-link"
+      aria-label="Copy link"
+      class="btn small"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      title="Copy link"
+      data-title-succeed="Link copied successfully!"
+    >
+      <i class="fa-fw fas fa-link pe-none fs-6"></i>
+    </button>
+  </span>
+</div>
+
+    </div>
+    <!-- .post-tail-bottom -->
+  </div>
+  <!-- div.post-tail-wrapper -->
+</article>
+
 
             
           </main>
@@ -545,12 +871,88 @@
             </div>
 
             
+              
+              
+
+
+
+
+
+
+
+            
           </aside>
         </div>
 
         <div class="row">
           <!-- tail -->
           <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
+            
+              
+              <!-- Recommend the other 3 posts according to the tags and categories of the current post. -->
+
+<!-- The total size of related posts -->
+
+
+<!-- An random integer that bigger than 0 -->
+
+
+<!-- Equals to TAG_SCORE / {max_categories_hierarchy} -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+            
+              
+              <!-- Navigation buttons at the bottom of the post. -->
+
+<nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
+  
+  
+
+  
+    <a
+      href="/posts/hello-world-2/"
+      class="btn btn-outline-primary"
+      aria-label="Older"
+    >
+      <p>Hello World 2</p>
+    </a>
+  
+
+  
+    <div class="btn btn-outline-primary disabled" aria-label="Newer">
+      <p>-</p>
+    </div>
+  
+</nav>
+
             
 
             <!-- The Footer -->
@@ -673,6 +1075,11 @@
     
 
     <!-- Embedded scripts -->
+
+    
+      
+      <!-- The comments switcher -->
+
 
     
 
