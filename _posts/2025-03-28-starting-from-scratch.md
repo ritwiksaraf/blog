@@ -5,7 +5,7 @@ date: 2025-03-28T16:48:46.568Z
 categories:
   - Blog
 tags:
-  - documentation
+  - Updates
 ---
 I have been stuck in a continuous loop of starting a project and never finishing it for the last 2 years now. I have gone through numerous cycles of doing something then letting it sit in my brain for countless number of iterations. This website may be the only half baked product of this stupidity and I plan to fix everything this time. This time i am putting my foot down and documenting what i need to document to make this work. I am broadly classifying my projects and everything that i need to do to get them right:
 
