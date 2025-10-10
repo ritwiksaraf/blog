@@ -3,7 +3,7 @@ layout: post
 title: Starting from scratch
 date: 2025-03-28T16:48:46.568Z
 categories:
-  - Projects
+  - Blog
 tags:
   - documentation
 ---
